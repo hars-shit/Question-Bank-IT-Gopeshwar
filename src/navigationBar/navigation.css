@@ -1,0 +1,9 @@
+img{
+    width: 28rem;
+    height: auto;
+}
+@media screen and (max-width:995px){
+    img{
+        width: 18rem;
+    }
+}

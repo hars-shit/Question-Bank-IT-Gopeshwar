@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+@media screen and (max-width :517px){
+    .nav-link , .btn{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width :434px){
+    .nav-link , .btn{
+        font-size: x-small;
+    }
+}
