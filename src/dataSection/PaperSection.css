@@ -1,5 +1,5 @@
 .inside-body-section {
-    padding: 30px 35px;
+    padding: 16px 0px;
 }
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -31,7 +31,16 @@
     background-color: #001333;
     color: #fff;
     font-size: 25px;
+
 }
+.card-header{
+        font-size: 19px;
+        font-family: unset;
+        font-weight: 549;
+        background-color: #3d2323;
+        color: white;
+}
+
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -43,7 +52,27 @@
     margin: 0px;
     padding: 0px;
 }
+
 .list-group {
     
+    display: flex;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width : 576px){
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+select{
+    margin-top: 30px;
+}
+.quesnPapers{
+    flex-direction: column;
     display: flex;
 }

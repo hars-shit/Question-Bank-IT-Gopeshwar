@@ -2,8 +2,59 @@ img{
     width: 28rem;
     height: auto;
 }
+.nav{
+    width: 100%;
+    height: auto;
+}
+.lowerNav{
+    color: black;
+   font-size: 18px;
+   font-weight: 600;
+    font-family: 'Crete Round', serif;
+}
+.luis{
+    width: 100vw;
+    
+}
+.navlinks{
+    width: 100%;
+}
+
 @media screen and (max-width:995px){
     img{
         width: 18rem;
     }
+}
+@media screen and (max-width:755px) {
+    .nav{
+        width: 1000px;
+    
+    }
+    img{
+        width: 100%;
+      
+    }
+   
+}
+@media screen and (max-width:550px){
+    .nav{
+        width: 100%;
+    }
+    .list-ele{
+        width: 100%;
+       
+    }
+}
+
+
+.nav{
+    float: right;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list-ele{
+    justify-content: center;
+    width: 100%;
+    display: flex;
 }
