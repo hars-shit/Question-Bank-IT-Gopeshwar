@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
 @media screen and (max-width :517px){
     .nav-link , .btn{
@@ -10,4 +10,11 @@ body{
     .nav-link , .btn{
         font-size: x-small;
     }
+}
+.container-fluid{
+    padding-bottom: 0.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
 }

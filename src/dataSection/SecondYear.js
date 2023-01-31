@@ -1,8 +1,8 @@
 
 const SecondYearCse = [
-    {sub:"Data Structures And Algorithms",link:"/",key:"1" },
+    {sub:"Data Structures And Algorithms",link:"/"},
     {sub:"Discrete Mathmetics",link:"https://drive.google.com/file/d/1p8Jy9X9N-Au-Ui6Nw-hYZkVqIPtMneB7/view?usp=sharing", key:"2" },
-    {sub:"Digital Electronics",link:"/" ,key:"3" },
+    {sub:"Digital Electronics",link:"/" },
     {sub:"Object Oriented Programming",link:"/" },
     {sub:"Energy & Environmental Engineering",link:"/" },
     {sub:"Mathematics-III",link:"/" },

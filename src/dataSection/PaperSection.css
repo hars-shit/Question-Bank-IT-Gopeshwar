@@ -1,5 +1,5 @@
 .inside-body-section {
-    padding: 16px 0px;
+    padding: 16px 3px;
 }
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -28,7 +28,7 @@
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .inside-body-section .inside-card .card-header {
-    background-color: #001333;
+    background-color:rgb(127, 20, 20);
     color: #fff;
     font-size: 25px;
 
@@ -37,7 +37,7 @@
         font-size: 19px;
         font-family: unset;
         font-weight: 549;
-        background-color: #3d2323;
+        background-color: #a42424;
         color: white;
 }
 
@@ -75,4 +75,5 @@ select{
 .quesnPapers{
     flex-direction: column;
     display: flex;
+    padding-bottom: 2rem;
 }
